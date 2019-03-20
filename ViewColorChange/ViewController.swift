@@ -25,10 +25,12 @@ class ViewController: UIViewController {
 
     @IBAction func btnRed(_ sender: UIButton) {
 //        RedView.backgroundColor = UIColor.white
+        
         if RedView.isHidden == true {
             RedView.isHidden = false
         } else {
             RedView.isHidden = true
+            RedView.alpha = 0.5
         }
 
     }
@@ -39,6 +41,7 @@ class ViewController: UIViewController {
             BlueView.isHidden = false
         } else {
             BlueView.isHidden = true
+            BlueView.alpha = 0.5
         }
 
     }
@@ -49,6 +52,7 @@ class ViewController: UIViewController {
             GreenView.isHidden = false
         } else {
             GreenView.isHidden = true
+            GreenView.alpha = 0.5
         }
 
     }
