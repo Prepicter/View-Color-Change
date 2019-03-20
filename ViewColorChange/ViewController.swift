@@ -23,6 +23,16 @@ class ViewController: UIViewController {
         GreenView.backgroundColor = UIColor.green
     }
 
-
+    @IBAction func btnRed(_ sender: UIButton) {
+        RedView.backgroundColor = UIColor.white
+    }
+    
+    @IBAction func btnBlue(_ sender: UIButton) {
+        BlueView.backgroundColor = UIColor.white
+    }
+    
+    @IBAction func btnGreen(_ sender: Any) {
+        GreenView.backgroundColor = UIColor.white
+    }
 }
 
